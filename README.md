@@ -68,31 +68,31 @@ The system offers the following main features:
 
 ### Book Management
 
-- ** Add Book: Allows registering new books with ID, title, author, and ISBN.
-- ** List Books: Displays all books registered in the library.
-- ** List Available Books: Shows only the books currently available for loan.
-- ** Search Book by Title: Allows finding books through a partial search in the title.
-- ** Search Book by Author: Allows finding books through a partial search in the author's name.
-- ** Remove Book: Deletes a book from the system, as long as it is not currently on loan.
+- **Add Book**: Allows registering new books with ID, title, author, and ISBN.
+- **List Books**: Displays all books registered in the library.
+- **List Available Books**: Shows only the books currently available for loan.
+- **Search Book by Title**: Allows finding books through a partial search in the title.
+- **Search Book by Author**: Allows finding books through a partial search in the author's name.
+- **Remove Book**: Deletes a book from the system, as long as it is not currently on loan.
 
 ### Member Management
 
-- ** Register Member: Allows registering new members with ID, name, email, and phone number. The email must be unique.
-- ** List Members: Displays all members registered in the library.
-- ** Search Member by Name: Allows finding members through a partial search in the name.
-- ** Remove Member: Deletes a member from the system, as long as they have no active loans.
+- **Register Member**: Allows registering new members with ID, name, email, and phone number. The email must be unique.
+- **List Members**: Displays all members registered in the library.
+- **Search Member by Name**: Allows finding members through a partial search in the name.
+- **Remove Member**: Deletes a member from the system, as long as they have no active loans.
 
 ### Loan Management
 
-- ** Perform Loan: Allows lending a book to a member, checking both the book's availability and whether the member has overdue loans.
-- ** Return Book: Records the return of a book, making it available again.
-- ** List Active Loans: Displays all loans that have not yet been returned.
-- ** List Overdue Loans: Shows loans that have exceeded the expected return date.
-- ** List Loans by Member: Displays all loans (active and returned) for a specific member.
+- **Perform Loan**: Allows lending a book to a member, checking both the book's availability and whether the member has overdue loans.
+- **Return Book**: Records the return of a book, making it available again.
+- **List Active Loans**: Displays all loans that have not yet been returned.
+- **List Overdue Loans**: Shows loans that have exceeded the expected return date.
+- **List Loans by Member**: Displays all loans (active and returned) for a specific member.
 
 ### Reports
 
-- ** General Report: Presents a statistical summary of the library, including the total number of books, available books, total members, active loans, and overdue loans.
+- **General Report**: Presents a statistical summary of the library, including the total number of books, available books, total members, active loans, and overdue loans.
 
 ## Project Structure
 
@@ -113,10 +113,9 @@ This project can be run in any Java IDE (such as IntelliJ IDEA, Eclipse, or VS C
 - Java Development Kit (JDK) 17 or higher installed.
 
 ### Running via IntelliJ IDEA
-1. ** Clone the Repository: If you cloned this repository from GitHub, open IntelliJ IDEA and select `File -> Open`, then navigate to the project's root folder (`biblioteca-java`).
-2. ** Import Maven/Gradle Project (if applicable): This is a simple Java project. IntelliJ should recognize the structure automatically. If there are issues, ensure the JDK is correctly set in `File -> Project Structure -> Project SDK`.
-3. ** Run the Main Class: Navigate to `src/main/java/com/biblioteca/main/Main.java`. Right-click on the `Main.java` file and select `Run 'Main.main()'`. The program will start in IntelliJ's console.
-
+1. **Clone the Repository**: If you cloned this repository from GitHub, open IntelliJ IDEA and select `File -> Open`, then navigate to the project's root folder (`biblioteca-java`).
+2. **Import Maven/Gradle Project (if applicable)**: This is a simple Java project. IntelliJ should recognize the structure automatically. If there are issues, ensure the JDK is correctly set in `File -> Project Structure -> Project SDK`.
+3. **Run the Main Class**: Navigate to `src/main/java/com/biblioteca/main/Main.java`. Right-click on the `Main.java` file and select `Run 'Main.main()'`. The program will start in IntelliJ's console.
 
 
 ## Contributions
